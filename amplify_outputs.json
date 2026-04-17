@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/aws-amplify/amplify-backend/raw/refs/heads/main/packages/client-config/src/client-config-schema/schema_v1.1.json",
+  "version": "1.1",
+  "auth": {
+    "user_pool_id": "us-east-1_placeholder",
+    "aws_region": "us-east-1",
+    "user_pool_client_id": "placeholder",
+    "identity_pool_id": "us-east-1:placeholder"
+  },
+  "data": {
+    "url": "https://placeholder.appsync-api.us-east-1.amazonaws.com/graphql",
+    "aws_region": "us-east-1",
+    "default_authorization_type": "API_KEY",
+    "api_key": "da2-placeholder",
+    "authorization_types": ["API_KEY"]
+  }
+}

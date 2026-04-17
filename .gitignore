@@ -37,5 +37,6 @@ next-env.d.ts
 
 # amplify
 .amplify
-amplify_outputs*
+# amplify_outputs* - enabled for Vercel deployment
+!amplify_outputs.json
 amplifyconfiguration*
